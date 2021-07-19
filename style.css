@@ -1,14 +1,16 @@
 body {
-  width: 100%;
-}
-
-main {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 209px;
 }
 
+
+main{
+  display: flex;
+    align-items: center;
+}
 .cars {
   width: 307px;
   height: 500px;
