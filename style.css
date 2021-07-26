@@ -2,24 +2,54 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  color: hsl(0, 0%, 95%);
+}
+
+main {
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-
-main{
-  display: flex;
-    align-items: center;
-}
 .cars {
-  width: 307px;
-  height: 500px;
+  width: 25%;
+  height: 75%;
+}
+
+.vroom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10%;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+img{
+  width: 35%;
+}
+
+.c-description {
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+  height: 25%;
+}
+
+button {
+  font-size: 2.5vw;
+  mix-blend-mode: screen;
+  border-radius: 1.641vw;
+
 }
 
 .sedans {
   background-color: #e28525;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 0.781vw;
+  border-bottom-left-radius: 0.781vw;
 }
 
 .suvs {
@@ -28,12 +58,12 @@ main{
 
 .luxury {
   background-color: #00403f;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 0.781vw;
+  border-bottom-right-radius: 0.781vw;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.859vw;
   text-align: center;
   color: rgba(137, 43, 226, 0);
 }
